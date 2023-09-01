@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Pizza Restaurant Website",
   "scripts": {
-    "start": "vite",
+    "api": "python API/app.py",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
