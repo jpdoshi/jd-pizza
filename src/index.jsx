@@ -5,7 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import './index.css';
+import { Router, Route, Routes } from '@solidjs/router';
+
 import App from './App';
+import Header from './components/Header';
+import Menu from './components/Menu';
 
 const root = document.getElementById('root');
 
@@ -15,4 +19,15 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() => <App />, root);
+render(
+  () => (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" component={App} />
+        <Route path="/menu" component={Menu} />
+      </Routes>
+    </Router>
+  ),
+  root
+);

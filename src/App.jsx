@@ -1,7 +1,11 @@
+import Hero from './components/Hero.jsx'
+
 export default function App() {
   return (
     <>
-      <h1>JD Pizza</h1>
+      <div class="hero-wrapper">
+        <Hero />
+      </div>
     </>
   );
 }
