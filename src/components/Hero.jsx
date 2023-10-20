@@ -1,10 +1,17 @@
+import pizza from '../assets/hero-pizza.png'
+
 export default function Hero() {
   return (
-    <div class="hero">
-      <div class="container hero-content">
-      	<h1 class="display-5 fw-bold mb-4">Order Your Favourite Pizza Now!</h1>
-      	<p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget massa maximus, lacinia erat vitae, mollis sem. Sed id velit lorem. Ut non sem molestie, blandit justo quis, porta quam. Nunc et eros ante. Duis ut cursus lectus. Nullam a suscipit lectus. Nunc sodales eget quam sed vestibulum. Mauris eget ex ligula. Nulla facilisi. Ut fringilla placerat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-      	<a href="/menu" class="btn btn-lg btn-primary">Explore Menu</a>
+    <div class="container my-4">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3 py-lg-5">
+        <div class="col-10 col-lg-5 mx-auto">
+          <img src={pizza} class="d-block img-fluid" loading="lazy" />
+        </div>
+        <div class="col-lg-7">
+          <h1 class="display-4 mb-4 fw-bold">Order Your Favourite Pizza Now!</h1>
+          <p class="mb-4 lead text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar metus vitae varius interdum. Morbi egestas ante id sem facilisis, a pulvinar massa porttitor.</p>
+          <a href="/menu" class="btn btn-lg btn-primary">Order Now!</a>
+        </div>
       </div>
     </div>
   )
