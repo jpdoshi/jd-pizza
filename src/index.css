@@ -36,3 +36,31 @@ body {
   border: 1px solid var(--primary);
   background-color: var(--primary);
 }
+
+.pizza {
+  animation-name: rotate;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  aspect-ratio: 1/1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media(max-width:992px) {
+  .container {
+    padding-inline: 1.5rem;
+  }
+  .nav-link {
+    margin-top: 12px;
+    margin-inline: 0px !important;
+  }
+}
