@@ -45,6 +45,12 @@ body {
   aspect-ratio: 1/1;
 }
 
+.about {
+  background-image: url("https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);

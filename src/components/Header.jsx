@@ -10,8 +10,9 @@ export default function Header() {
 
 			<ul class="nav nav-pills my-auto">
 			  <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-			  <li class="nav-item"><a href="/menu" class="nav-link">Our Menu</a></li>
-			  <li class="nav-item"><a href="/about" class="nav-link">Our Story</a></li>
+			  <li class="nav-item"><a href="#offers" class="nav-link">Deals & Offers</a></li>
+			  <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+			  <li class="nav-item"><a href="/menu" class="nav-link">Explore Menu</a></li>
 			  <li class="nav-item"><a href="/account" class="nav-link text-white" style={{ background: "var(--primary)" }}>Account</a></li>
 			</ul>
 	  </div>
