@@ -21,7 +21,8 @@ body {
   border-radius: 10px !important;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.footer-link:hover {
   color: var(--primary);
 }
 
@@ -49,6 +50,12 @@ body {
   background-image: url("https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg");
   background-size: cover;
   background-position: center;
+}
+
+.footer-link {
+  margin-inline: 12px;
+  color: #666;
+  text-decoration: none;
 }
 
 @keyframes rotate {

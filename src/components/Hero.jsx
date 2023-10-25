@@ -10,7 +10,7 @@ export default function Hero() {
         <div class="col-lg-7">
           <h1 class="display-3 mb-4 fw-bolder">Order Your Favourite Pizza Now!</h1>
           <p class="mb-4 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar metus vitae varius interdum. Morbi egestas ante id sem facilisis, a pulvinar massa porttitor.</p>
-          <a href="/menu" class="btn btn-lg btn-primary">Order Now!</a>
+          <a href="/menu" class="btn btn-lg btn-primary px-4">Order Now!</a>
         </div>
       </div>
     </div>

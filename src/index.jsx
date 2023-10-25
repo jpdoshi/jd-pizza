@@ -7,9 +7,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css';
 import { Router, Route, Routes } from '@solidjs/router';
 
-import App from './App';
-import Header from './components/Header';
-import Menu from './components/Menu';
+import Home from './Home.jsx';
+import Menu from './Menu.jsx';
 
 const root = document.getElementById('root');
 
@@ -22,9 +21,8 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 render(
   () => (
     <Router>
-      <Header />
       <Routes>
-        <Route path="/" component={App} />
+        <Route path="/" component={Home} />
         <Route path="/menu" component={Menu} />
       </Routes>
     </Router>
